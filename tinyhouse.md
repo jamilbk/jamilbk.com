@@ -1,0 +1,1522 @@
+---
+layout: page
+title: Tinyhouse
+# sidebar_link: true
+---
+
+# Humble Home
+
+
+In the spring of 2014 I began to experience a strange feeling of wanting to do
+something different with my day to day time. I had been a Rails contractor
+working remotely for 2 years straight with not much of a vacation, and
+I fantasized about traveling, seeing the open road, surrounding myself in
+nature to buckle down on a project or series of books.
+
+Some would call it burnout; I thought it was my Saturn Return. I just felt like
+embarking on a big project and completing it for once. The past 3 years had
+been filled with half-finished and half-assed side projects, and if there's one
+thing I knew could keep my attention for more than a few weeks, it was
+a physical building project. So I essentially made a spur of the moment
+decision to sublet my apartment in SF, drive back to Texas (to my great fortune
+my folks have a few acres there where I decided I would build), and quit my job
+to build a tinyhouse.
+
+Now, this all seems like a crazy idea. But at the time, it felt natural,
+exciting, and ambitious... yet very achievable. Thinking back, I probably drew
+most of the inspiration from this Techcrunch article
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+
+I'm building a tiny hacker house on a trailer. It will be about 150 sq. ft. total, and that
+includes the 50 sq. ft. or so required for the queen-size loft. It will have a
+tiny kitchen, tiny bathroom, tiny living area, but a regular sized bathtub.
+The bathtub is important because it doubles as a laundry washer.
+
+<center>
+<img src="/img/tiny-hacker-house-rough-model.png"
+  alt="tiny hacker house rough model">
+</center>
+
+I've had 5 different addresses in 3 years of living in the Bay Area, always
+seeking the most comfortable yet cost-effective living situation. Somewhere
+along the way, I got sick of paying increasing rent for living where I wanted.
+I got sick of scheduling my major vacations and life transitions in 3, 6, or
+12-month increments. I also became disheartened by the cost of owning a home --
+not just the price of the home, but the time and energy required shopping for
+it, maintaining utilities, mortgages, the yard, building code, HOA code, and
+property tax. It just seems so high maintenance.
+
+There are times when I feel overwhelmed by concrete, people, the monotony and
+predictability of the daily city routine. When this happens, I like to take
+a mini sabbatical to reconnect myself to the humanity of a fresh experience.
+Most of the time this means going solo camping or taking a mini road trip.
+A well-designed tiny house is the perfect vehicle for this. No need to pack.
+
+I look at the material things around me and wonder if I could design
+a lifestyle that didn't place so much importance on owning those things. When
+I moved to San Francisco, I owned only what could fit in a car. Without
+a couch, TV, and cooking supplies, I went out most nights to eat and explore,
+and making friends happened organically. When I invited those friends over for
+dinner, I resisted buying a kitchen table. Instead, people sat in a circle on
+floor pillows. I think it made for a much more intimate dining experience.  I sit in
+chairs enough anyway.
+
+I work remotely as an independent developer. I get tired of going to coffee
+shops and co-working spaces to work. They're neither collaborative nor
+focus-friendly, but somewhere in between, where I can work alone and not feel
+alone. But after a while, I realized this isn't the solution. I'd rather work
+in either long stretches of pristine solitude, or in highly engaged sessions
+face-to-face. For the former, what could be more ideal than an office at the
+beach, in the forest, or on a snow-covered mountain?
+
+So I'm building a tiny hacker house. The next post will detail the structural
+design and living systems.
+
+
+
+
+
+
+
+
+My <a href="#">last
+post</a> provided some of the basic philosophical reasoning behind my journey
+to build a tiny hacker house. It also featured a rough model of the house at a
+very early stage in its conception. Well, after a couple more months of
+research and a dash of Burningman inspiration, I've completed what I consider
+to be the beta version of the design.
+
+<center> <img src="/img/overview-right.png" alt="Overview Right"> <div
+class="caption"> <i> Enough hacker space to squeeze in 3 or 4 curious nomads.
+</i> </div> </center>
+
+### Design Goals
+
+Although it's on a 16' trailer, I want my house to be practical enough to
+comfortably shelter 4 adults for weekend ski trips, tiny dinner parties, and
+the occasional road trip or two. I also want to be fairly independent of
+grid-tied scenarios; I suspect I'll be dancing around from place to place as I
+navigate the legal contours of living in a tiny house in greater San Francisco.
+As a result, my soft goal for the house is to support a decent living without
+resupplies for 4 person-weeks. That means electricity, showering, dishes,
+drinking water, food, and propane for 1 person for 4 weeks, or 4 people for 1
+week.
+
+I believe one of the primary reasons folks get hassled for living full-time in
+RVs is because they are, for the most part, unsightly. Airstreams are beautiful
+feats of engineering, but even they don't blend in well as a full-time dwelling
+in an urban or suburban environment. I was originally planning to use a
+maintenance-free material for the exterior siding such as corrugated aluminum
+or [Corten RustWall
+panels](http://www.cortenroofing.com/rustwall-reg-panel_8_1160_30805.html), but
+I've decided to stick with the standard cedar planks. The less my house stands
+out, the easier it'll be to find permanent parking.
+
+Since I make my living on my computer, I want to be able to work comfortably
+anytime, anywhere. The electrical system will need to power a laptop, a few
+lights, and internet equipment for up to 12 hours, in the case of a winter
+all-nighter. It will also need to handle power spikes of a few hours at a time,
+such as running toaster oven, lights, range fan, and A/C simultaneously.
+
+I also want to be able to maintain a comfortable 68 - 78&#176;F whether I'm in
+Austin for the summer or Colorado for the winter. Closed-cell spray foam
+insulation seems to be the most practical solution here, if a bit pricey. Along
+with rigid foam insulation, a radiant heat barrier, and the interior / exterior
+siding, I'm looking at an insulating R-value in the mid 30's. An 8,000 BTU
+window air conditioner should cool the 100 sq ft nicely.
+
+For heating, I've seen a lot of folks go with [Dickinson
+Marine](http://dickinsonmarine.com/propane.php)'s propane fireplace, but I
+wanted something that provides more ambient heat as opposed to a single
+point-source of toasty air. Because if your toes are cold, it doesn't matter
+how warm the rest of you is -- you're still cold. So I'm planning to integrate
+a closed-loop solar in-floor heating system.
+
+I spent a couple days crunching numbers trying to size the system, but it's
+difficult given the amount of thermal variables in a mobile tiny house. I plan
+to use 4 solar heating panels on the roof, anti-freeze coolant,
+variable-voltage DC pump, and PEX tubing snaked under the hardwood floor boards
+to heat my home. I can adjust the amount of heat exchanged into the home by
+dialing up or down the speed of the pump. Frigid nights will prove challenging,
+however -- an insulated coolant storage tank may be necessary to collect the
+day's heat. If all else fails, I can always light the oven to double as a
+makeshift fireplace.
+
+### Towing
+
+Physics dictates that you'll need a truck or SUV to safely tow a tiny house at
+highway speeds. Heavy duty trucks work best due to their weight, braking
+system, and long wheelbase. Most wood-framed tiny houses seem to come in at a
+dry weight of 4,000 - 7,000 lb, but mine will be substantially heavier at a
+maximum 11,000 lb due to its beefier construction and off-grid goodies. That
+significantly narrows my choices available for tow vehicles -- most SUVs are
+limited to 8,000 lb and even full-size trucks won't cut it with a maximum
+towing capacity of about 10,000 lb. Because of this, I chose a Chevy 2500 HD
+with a maximum towing capacity of 14,500 lb. Its price, lengthy wheelbase, 7500
+lb curb weight, and single rear wheel make for the best combination of features
+given my budget.
+ 
+<center>
+  <img src="/img/overview.png" alt="Overview">
+  <div class="caption">
+    <i>
+My tow vehicle is a 3/4 ton Chevy truck. Ironically, it's longer than my house.
+    </i>
+  </div>
+</center>
+
+The front axle of my tandem-axle trailer almost perfectly bisects the house
+foundation, making it straightforward to estimate the weight distribution to
+achieve a desired tongue weight of 10-15% total trailer weight. The heaviest
+items will be located low and towards the front of the house, so I chose a
+wedge shape for the frame to balance the batteries, water tanks, etc that will
+sit close to the tongue. A tongue-supported storage shed and rear hitch-mounted
+luggage tray will provide flexibility for fine-tuning the weight distribution.
+
+Knowing the estimated dry weight of my house, I can roughly calculate the
+forces involved in an emergency maneuver such as coming to screeching stop.
+According to
+[MotorTrend](http://www.trucktrend.com/roadtests/pickup/163_1402_2015_chevrolet_silverado_2500_hd_ltz_4x4_first_test/?__federated=1),
+my truck has a 60 to 0 mph stopping distance of 134 ft. That translates to
+about 1 G-force, and will be less when fully loaded and towing. So the total
+lateral shear force acting between the house and the trailer could be up to
+10,000 lbs, or 5 tons. I'll probably want to use high-grade bolts to attach the
+subfloor and reinforce the corners of the frame with angle iron.
+
+### Framing
+
+If I'm going to do all the work to build a tiny house, I want the full
+experience of architecting it too. I didn't realize, however, how much tedious
+work is involved just to get an accurate model finished. I've been researching
+and working on it for the past 4 months part-time, and just now getting to the
+point where I feel comfortable ordering materials. If you haven't noticed
+already, I'm using the fantastic and free [Sketchup
+Make](http://www.sketchup.com/products/sketchup-make) to draw these up.
+
+<center> <img src="/img/overview-frame.png" alt="Overview Frame"> <div
+class="caption"> <i> Measure twice, cut once. Accurately precut frame members
+will save me time.  </i> </div> </center>
+
+I've decided to go with 12-gauge steel studs fastened with pan head screws and
+welded together at the joints. I've also chosen the more rust-resistant G90
+galvanization in case I decide to live in humid or coastal climates. That puts
+the total weight of the frame at around 3000 lbs. It's heavy, but without a
+solid frame, I'm worried the rest of the house could literally fall apart after
+a few years of highway jostle. And, I can always peel back and replace siding
+and sheathing but replacing a frame stud after it's been welded and sealed in
+with spray foam would be a nightmare.
+
+Local drywall supply stores usually have access to light gauge metal studs in
+various sizes and types from the manufacturer, and can have them ready for you
+in a few business days' notice. Most will even precut them for free if you give
+them the desired lengths. Ideally, you could send them a list of the exact
+members you need and simply assemble them like Legos, no cutting necessary.
+
+I've reinforced points where the frame needs to remain perfectly aligned or
+where I anticipate flex. This will keep the door hinging smoothly, and
+hopefully prevent any gaps or creaks from developing in the siding and floor
+boards.
+
+### Layout
+
+The kitchen consumes the whole forward bit of the trailer, and features 18"
+deep counter tops. I like to cook, and I didn't want my transition to a tiny
+life to undermine that. The sink is 18" x 16" x 8" inches deep -- large enough
+to hold water for mopping the floors and washing large kitchenware. I've yet to
+find a decent propane-powered stove / oven however. Most seem to be built for
+either restaurants or camping. This [Camp Chef outdoor
+oven](http://amzn.com/B0013LLSZG) comes close, but it's lacking a broil option
+and automatic thermostat.
+
+<center> <img src="/img/overview-top.png" alt="Overview Top"> <div
+class="caption"> <i> From left to right: kitchen, living room, bathroom. Not
+pictured: loft.  </i> </div> </center>
+
+The living room / office / dining room is the most configurable area of the
+house. The large table and futon fold against the wall to provide a large, open
+area for a yoga session or slumber party. The energy-efficient chest-style
+refrigerator, located to the right of the futon, provides extra lounging space.
+The [Seiki 39" TV /
+Monitor](http://www.seiki.com/products/tv/SE39UY04-detail.php) is mounted on an
+extending arm, functioning as a TV when against the wall and a computer monitor
+when extended towards the futon.
+
+Most tiny houses sacrifice bathroom space for extra living and cooking space.
+While that seems to make sense at first, when you consider that showering,
+shaving, dressing, and using the toilet are activities that are best performed
+in the comfort of <i>your own</i> private space, I realized I wanted a
+generously-sized bathroom. I can use the extra room as a clothes closet, and do
+laundry in the shower pan.
+
+That just about summarizes the design of the tiny hacker house. The next post
+will detail the electrical system!
+
+
+
+
+
+
+
+
+
+
+(If you missed the last post highlighting the major design choices for the tiny
+hacker house, this one may be a little out of context. You should probably [go
+read](#) it
+now.)
+
+When I first contemplated building a tiny house, the electricity system was the
+first thing I researched. Maybe that's because it's what I'm most comfortable
+with as an electrical / computer engineer, or perhaps it's because that's what
+enables the rest of the house to come alive. Since I wasn't planning to be
+grid-tied, I had to depend on my electrical system to provide the comforts for
+everyday life. If I wanted to rely on my home to support a decent living, it
+needed to be fault-tolerant and straightforward to manage.
+
+After much research, I've chosen to go with a solar system and
+propane-converted Honda generator for backup. The panels will lie flat on my
+slanted roof and I'll park the house facing south whenever possible to maximum
+sunlight absorption. I toyed with the idea of building a collapsible windmill
+like [this one](http://windpax.com) for backup power, but it would be need to
+be huge, durable, and powerful -- likely a too expensive and time-consuming job
+for a tiny house. I'll just stick to solar and propane. At least until my
+nuclear reactor arrives in the mail.
+
+<center>
+  <img src="/img/power-panels.png" alt="Power Solar Panels">
+  <div class="caption">
+    <i>
+      You could say I'm a bit power hungry.
+    </i>
+  </div>
+</center>
+
+Tiny houses are already space-confined; I didn't want to feel
+electrically-confined as well. At the very minimum, I knew I needed to power
+A/C, a refrigerator, lights, internet equipment, and a computer simultaneously.
+At the peak, however, that includes a few more things -- pressurizing water,
+brewing coffee, and using a hair dryer perhaps. I wanted to be able to support
+a realistic load without tripping the breaker. So I came up with the following
+table:
+
+Device | Max power draw (W)
+-|-
+Laptop | 85
+Hairdryer | 1000
+Coffee machine | 800
+TV | 100
+Air conditioner | 800
+Refrigerator | 65
+Wireless router | 10
+Lights (4) | 60
+Water pressurizer pump | 90
+|=
+Total | 3010
+
+Knowing that I'd need up to 3010 W of power at any one time, I could size my
+inverter. If you're not familiar with electrical systems, the inverter is the
+device that takes power from a 12 V DC source like a car battery and converts
+it to the 120 V or 240 V AC standards used in homes around the world. They're
+never 100% efficient, so a little power is lost in the form of heat during the
+conversion process. They also don't like being run at maximum capacity for
+extended periods of time, so it's good to leave a buffer to account for
+unexpected power draw. Because of this (and other reasons noted below), I decided
+to go with Outback's [FlexPower
+One](http://www.outbackpower.com/outback-products/integrated-systems/item/flexpower-one?category_id=441)
+utilizing a 3600 W inverter.
+
+To continue sizing the rest of the solar system, I needed to calculate my
+average kWh used per day. A kWh, or kilowatt-hour, of electricity is simply the
+amount of kilowatts used in one hour. To calculate this I determine the number
+of hours I expect to use each device in a given day, multiply by its power draw
+from the table above, and sum the result:
+
+Device | Usage per Day (h) | Power usage (Wh)
+-|-|-
+Laptop | 4 | 340 
+TV | 2 | 200
+Air conditioner | 4 | 3200
+Refrigerator | 8 | 520 
+Wireless router | 24 | 240
+Lights (4) | 6 | 360
+Water pressurizer pump | 2 | 180
+||=
+|Total | 5040 Watt-hours
+
+5040 Wh or about 5 kWh of power used in a typical day. To account for heat loss
+inefficiencies in the system I multiplied this number by 1.5, ending up with
+7.5 kWh. This means the battery bank will need to supply 7.5 kWh per day if
+fully drained, but since it's damaging to discharge them more than 50%, we need
+to multiply this number by 2. So 15 kWh of electricity is needed.
+
+To find the number of deep-cycle batteries I'll need, I divide 15 kWh by the
+voltage of my battery bank, 48 V. This gives me the required Ampere-hour (Ah)
+rating of the bank.  [These](http://www.amzn.com/B00DDZ2H6E) heavy duty deep
+cycle batteries offer 1240 Ah at 12 V, or 310 Ah at 48 V. This comes pretty
+close to the 312.5 Ah required, and considering I'll have a 3000 W generator
+backup, should be adequate for the tiny hacker house. For a better how-to on
+sizing a solar battery bank, check
+[this](http://www.instructables.com/id/How-to-Size-Your-Off-Grid-Solar-Batteries-1/)
+Instructables DIY.
+
+<center>
+  <img src="/img/power-generator.png" alt="Honda Generator">
+  <div class="caption">
+    <i>
+      A 3000 W propane-fueled generator sits on a hitch-mounted luggage rack on
+the back of the trailer.
+    </i>
+  </div>
+</center>
+
+Finally, I need to be fairly confident the solar panel array can provide enough
+juice to charge the battery banks to 100% on a clear, sunny day. This will vary
+wildly depending on the time of year, where I'm parked, the weather, angle of
+the panel, and efficiency of the panel. For example, using
+[this](http://www.sunsoglobal.com/calculator.html) panel sizing calculator,
+Phoenix, AZ receives about 5.75 sun-hours in the winter, while Seattle, WA only
+musters 1.6. This means your solar panel array would need to be about 3.5 times
+larger if living in Seattle than Phoenix.
+
+For the tiny hacker house, the majority of power is used by the A/C, so in the
+winter months my power needs will be reduced to about 1.8 kWh -- less than half
+required in the summer months.  Heating will be provided by in-floor solar
+heating with a propane stove as backup, so minimal electricity requirements
+there. I should mention that insulation plays a huge role in the power
+requirements to heat and cool the home. Closed-cell spray foam insulation seems
+to be the best available, which I'll cover in a later article.
+
+<center>
+  <img src="/img/power-panels2.png" alt="Solar panels">
+  <div class="caption">
+    <i>
+      At 21.3" x 47", <a href="http://amzn.com/B009Z6CW7O">these</a> Renogy 100
+W panels fit perfectly on the roof.
+    </i>
+  </div>
+</center>
+
+The tiny hacker house roof has room for about 800 W of panels. Taking
+everything into consideration, in the worst case scenario, I'd be able to
+produce 0.8 kW * 1.6 h = 1.28 kWh / day on average during the winter in
+Seattle. At an estimated usage of 1.8 kWh / day with no A/C, that means my 3000
+W generator will need to run at full load for (1.8 - 1.28) / 3 = 0.1733 hours,
+or about 10.4 minutes per day to make up the difference the solar panels can't
+provide. I'm ok with that.
+
+As you can tell, designing and managing an off-grid electrical system is pretty
+complicated. That's why I chose to go with an integrated power management
+system like the FlexPower One. It provides an inverter, MPPT charge controller,
+logging device, and will even remote-start my generator when the battery bank
+falls below a supplied charge threshold. With 100 lb of propane, I could run
+the generator at full load for up to 40 hours (calculated from
+[here](http://www.yamaha-propane-natural-gas-generators.com/fuel_consumption.htm)).
+Plenty of power to live comfortably without worry!
+
+That sums up the electrical system -- hope you made it all the way
+through. If you have any questions please leave a comment below or <a
+href="mailto:&#099;&#111;&#110;&#116;&#097;&#099;&#116;&#064;&#109;&#111;&#100;&#101;&#114;&#110;&#098;&#101;&#100;&#111;&#117;&#046;&#105;&#110;">shoot
+me an email.</a> In the next post we'll dip into some
+smelly subjects as we take a splash in the bathroom. :-)
+
+
+
+
+
+
+
+
+
+
+
+
+As mentioned in a [previous
+article](#),
+my bathroom won't be
+just a place to shower & shave -- it'll function as a walk-in closet as well.
+If you're in the house with others, it's also the only place where you can lock
+a door and reasonably expect some privacy, so I wanted to keep that in mind for
+future living arrangements where I may be sharing the house. Because of this,
+the bathroom will occupy nearly 1/3 of the lower level space -- approximately
+29 sq. ft. of the 103 sq. ft. available.
+
+<center>
+  <img src="/img/overview-bathroom.png" alt="Bathroom">
+  <div class="caption">
+    <i>
+      Large bathroom for a tiny house.
+    </i>
+  </div>
+</center>
+
+### Toilet
+
+Since I plan to be off-grid or on the road often with my house, I knew a
+standard plumbed-in toilet wouldn't be ideal. I'd have to accommodate a black
+water tank underneath the house and deal with finding a spot to empty it every
+couple weeks. The next best option seems to be an [incinerating
+toilet](http://ssl3.sea.tierpoint.com/incinolet/), but they're pricey and
+consume 450 Wh of electricity each use!
+
+I certainly don't want any power problems to prevent pooing, so I'm sticking
+with a simple composting toilet for the initial build. What's a composting
+toilet, you ask? It's essentially a bucket enclosed in a comfy wooden
+toilet-like enclosure. You sprinkle in peat moss or sawdust after each use to
+absorb the smell and moisture, and after it's full, you can safely dump the
+waste into a compost pile. It seems a bit unsanitary at first, but it's much
+more eco-friendly -- 
+[toilets consume the most](http://www.epa.gov/watersense/pubs/indoor.html)
+water in a typical home. Plus, in more permanent living situations, the
+abundance of fresh compost will come in handy for my garden.
+
+<center>
+  <img src="/img/lovable-loo.jpg" alt="Lovable Loo">
+  <div class="caption">
+    <i>
+The <a
+href="http://humanurehandbook.com/store/LOVEABLE-LOO-Eco-Toilet.html">Lovable
+Loo</a>: a popular composting toilet.
+    </i>
+  </div>
+</center>
+
+Everything I know about composting toilets is from the [Humanure
+Handbook](http://humanurehandbook.com). Definitely worth a read if you're
+interested in off-grid or eco-friendly toilets.
+
+### Shower
+
+Whatever the issue in life, long, hot showers always seem to clear the mind to
+uncover a solution. I [had originally
+planned](#)
+to install a lavish freestanding tub, but I've since given up on that plan. A
+16' trailer is just too small for that kind of luxury and I can wash clothes in
+a shower just as easily. I didn't want to skimp too much on bathing facilities
+though, so I managed to come up with something that's small yet comfy:
+
+<center>
+  <img src="/img/overview-shower.jpg" alt="Shower Enclosure">
+  <div class="caption">
+    <i>
+      Dreamline chrome and tempered glass tiny corner shower enclosure.
+    </i>
+  </div>
+</center>
+
+At just 33"x33", Dreamline makes a beautiful, tiny [shower
+kit](http://www.bathauthority.com/shower-enclosure-Prime.html) that fits my
+bathroom perfectly. The height of the enclosure is *just right* to create a
+floor-to-ceiling seal with my 6' 6" bathroom ceiling, so instead of a
+freestanding tub I now have myself a tiny steam room. Success. With a
+low-profile rain showerhead to complete the package I'll be basking in
+dihydrogen monoxide bliss wherever I go.
+
+### Sink
+
+There are plenty of tiny sinks on the market. Width and height aren't really an
+issue in my case, but I'll need plenty of room to move around, change clothes,
+etc so I'm keen on finding something low-profile and wall mounted.
+[This](http://amzn.com/B00B24HVIM) ALFI AB108 is the sexiest one I've found
+but it's pricey especially once you include the optional towel bar. I'll
+have enough road issues to deal with -- better not add highway robbery to the
+list. The sink search is still on.
+
+### Closet
+
+One thing's for sure: I need to get rid of some clothes before I move into my
+tiny house. The hanger rack is only 16" long -- enough room for about 15
+clothes hangers. After accounting for a jacket, hoodie, and winter coat, that's
+only enough room for about a week's worth of pants and collared shirts.
+Bathroom shelves provide a little more storage though, allowing me to avoid
+doing laundry for up to two weeks.
+
+I never considered myself to be a packrat, but now that I'm considering
+*actually* moving into a tiny house, declaring a spot for *every* little thing
+I own, it really dawns on me how little consideration I give to acquiring new
+material comforts. 
+
+
+
+
+
+
+
+
+With only 103 sq. ft. to work with, floor space *has* to be optimized. One big
+difference I notice between most RVs and tiny houses is the latter usually
+takes advantage of a bit higher ceilings to make room for a bedroom loft. It's
+a great way to make use of the 13' 6" allowable road height for trailers
+without sacrificing valuable floor space for a permanent bed.
+
+<center>
+  <img src="/img/loft-head-height.png" alt="Loft Head Height">
+  <div class="caption">
+    <i>
+      Plenty of room for sitting up to read a book.
+    </i>
+  </div>
+</center>
+
+Since I'll be either sleeping or reading 99% of the time I'm in bed, I don't
+need much headroom. Lucky for me, the wedge shape of my trailer frame allows
+for three and a half feet of vertical room at the head of the mattress. Space
+is a bit more cramped at the foot of the loft at just over 2 feet to the
+ceiling, so I've recessed the loft entrance 28" back to a point where the
+clearance is close to 3 feet.
+
+<center>
+  <img src="/img/loft-ladder-height.png" alt="Loft Ladder Height">
+  <div class="caption">
+    <i>
+      Recessing part of the loft floor adds a much needed 6" of head clearance
+when climbing up the ladder.
+    </i>
+  </div>
+</center>
+
+Since the loft is the most confined space in the house, I knew it would need
+lots of natural lighting. That's why there's a huge 6' x 3' casement window at
+the rear, and two 2' x 2' casement windows on the sides. Skylights seem to be
+all the rage in tiny homes, and I've added a large 56" VELUX directly above the
+mattress for stargazing on cool, clear nights.  And it opens wide enough to
+reach the solar panels for occasional cleaning, so that'll keep me from having
+to climb onto the roof.
+
+I'm still trying to figure out the ladder situation. It
+[seems](http://tinyhousetalk.com/tiny-house-furniture-1-chair-ladder/) to be
+a [common](http://tinyhouselistings.com/tiny-house-uk-unique-loft-ladder/)
+point of
+[interest](http://tinyhousebuild.com/ridiculously-easy-loft-ladder-for-tiny-houses/)
+for most tiny houses. The shelving staircase used in Rocky Mountain Tiny
+Houses' [Boulder](http://rockymountaintinyhouses.com/plans/boulder/) plan is
+attractive and clever. But I want to be careful about adding permanent stairs;
+if I don't use the storage I'll be tempted to tear it down and find a more
+efficient way to climb into the loft. Right now the plan is to reinforce the
+shelving near the TV to double as a ladder, or build a thin metal ladder that
+attaches to the loft edge and tucks away into the pocket door nook when not in
+use. We'll see.
+
+
+
+
+
+
+
+
+Hi folks. It's been a while since the last update, but for good reason! I've been
+busy building. More on that in another post. But first, I'd like to discuss
+plumbing.
+
+(A little aside: Unless you're willing to spend hours and hours designing a
+system from scratch (and likely still get it wrong), please just hire a
+professional. I'm only offering here the resources I've found helpful in the
+hopes it'll be helpful for other DIY'ers. I certainly wish I had more examples
+available to study as I dove into this adventure.)
+
+Since the tiny hacker house will be heated via a closed-loop in-floor radiant
+heat system, the plumbing is a bit more complicated than your typical tiny
+house. One heater will need to provide hot water for
+both the fixtures and home heating, so a "smarter" system is required to ensure
+everything flows properly and stays hot. Unfortunately, that means a bit
+of back-of-the-napkin calculations are in order.
+
+<h3>Water heater sizing for mortals</h3>
+
+The first order of business is figuring out a "worst case" scenario
+for hot water usage. This will serve as the maximum heat load for the system,
+measured in BTUs / hr. If you have a stationary home with traditional heating,
+this is pretty easy -- just throw in one or more electric tank heaters
+(depending on the size of your family) and you're done. With mobile homes and
+radiant heating, though, it requires answering some questions first. Tank or
+Tankless? Planning ski trips? Having house guests? Using an automatic dish
+washer? Everyone's scenarios are different.
+
+__My "worst case" scenario is taking a 110&deg;F shower in 0&deg;F weather
+while keeping the house at a comfortable 75&deg;F.__
+
+To calculate the required BTUs per hour for this load, I simply need to know 4
+things: the starting temperature of the water I want to heat for my shower, the
+flow rate of the shower head, the area of my walls, floors, and ceilings, and
+the insulation R-value for each.
+
+If I assume the temperature of the water for my shower comes from the tank at
+32&deg;F (hopefully not frozen!), we can estimate the BTU/hr required to heat
+the water to 110&deg; through a 2.2 GPM shower head using the calculation:
+
+_BTU/hr = 500 * water flow rate * (temperature inside - temperature outside)_
+
+_BTU/hr = 500 * 2.2 * (110 - 32)_
+
+_BTU/hr = 85,800_
+
+Now, to estimate the BTU/hr required to heat the home, I can use the following
+equation:
+
+_BTU/hr = (wall surface area / R-value) * temperature difference_
+
+Shown below is a table summarizing the R-value and area of my walls and
+windows. I'm assuming a very conservative R-value of 20 for all my walls and 1
+for windows. With more efficient windows, thermal barriers, and 3" of spray
+foam insulation, it should be much higher in practice.
+
+| Location | Area (sq) | R-value | A / R |
+|-
+|N Wall| 75 | 20|3.75|
+|S Wall| 55 | 20|2.75|
+|E Wall| 130| 20|6.5|
+|W Wall| 130| 20|6.5|
+|Ceiling| 116| 20|5.8|
+|Floor|106|20|5.3|
+|Windows|70|1|70|
+| | | | |
+|Total| | | 101.1 |
+
+Notice the majority of heat loss occurs through the windows due to their
+relatively low R-value. Increasing the efficiency of the windows to R-2 or even
+R-5 can help dramatically. But in this worst-case scenario, the required BTUs /
+hr to heat the house is:
+
+BTU/hr = 101.1 * 75 = 7,582
+
+So the total BTU/hr needed for my "worst case" scenario noted above is
+
+85,800 + 7,582 = 93,382 BTU/hr
+
+After a bit of searching around, I decided to go with the
+[Takagi T-KJr2](http://www.takagi.com/products/tankless-water-heaters/t-kjr2-in-p).
+Its 140,000 BTU capacity and 82% efficiency means it'll be able to supply up to
+114,800 BTUs of heat -- more than enough for my maximum heat load scenario.
+
+<h3>Let's get pumped</h3>
+
+After the water heater's been decided, we need to find a circulation pump to
+move the water through the radiant floor loop, heat exchanger, and water heater
+at the proper flow and pressure. With a pump too small, the efficiency of the
+plate heat exchanger suffers -- I may not be able to reach the 110&deg;F design
+temperature for the domestic hot water. With a pump too large, the efficiency
+of the system suffers -- pressure drops exponentially with higher and higher
+flows.
+
+<center>
+<img src="/img/plumbing/takagi_curve.png"
+  alt="tiny hacker house plumbing taco bumblebee curve">
+<div class="caption">
+<i>Pressure drop and temperature rise charts for a given flow for the
+Takagi T-KJr2 water heater.</i>
+</div>
+</center>
+
+At this point, a professional plumber would calculate the required flow for
+maximum heat transfer for my heat exchanger in my worst case scenario, the
+pressure drop through the radiant floor loop, and accurately size a high
+pressure, low flow pump based on this information.
+
+We're not going to do that.
+
+Instead, I've opted to go with the Taco Bumblebee -- a variable speed, low
+power programmable pump. At just under $200, it's in the ballpark of most
+conventional circulation pumps, and uses as little as 9 W at the lowest speed
+setting. Pretty efficient if you ask me.
+
+Except the issue with this pump (or rather, my system) is that I have a
+relatively high pressure drop compared to most conventional radiant floor
+systems. This is because of my choice of 1/2" PEX pipe, which I chose because
+of its 5/8" outside diameter -- my subfloor plywood in which I'm laying the
+radiant piping is only 1 1/8" thick. With 3/4" PEX I need a 7/8" groove in the
+subfloor, meaning for long length-wise runs of my floor, I'd have only 1/4" of
+subfloor plywood supporting the load above. If it cracks or breaks, the
+hardwood floor above would likely crack soon after (it's running in the same
+length-wise orientation as the heating loops), and I'd have to rip up the whole
+floor down to the trailer frame to fix everything. In a conventional home, I'd
+have plenty of space to use larger pipes. But with a tiny house, there are
+trade-offs I have to make.
+
+Here's a table of my estimated combined max pressure drop vs flow in the
+radiant loop, calculated from the Takagi chart above and the pressure drop
+tables from the [residential pex design
+guide](http://www.huduser.org/portal/publications/pex_design_guide.pdf) (PDF):
+
+| Flow (GPM) | Pressure Drop (ft. of head) |
+|-
+|1.0|6|
+|1.5|11|
+|2.0|18|
+|2.5|29|
+|3.0|40|
+|3.5|52|
+|4.0|65|
+|4.5|81|
+|5.0|96|
+|6.0|140|
+
+Experienced plumbers and hydro engineers may look at this table and say, "get a
+cheap diaphragm pump, dummy! High pressure, low flow!". But the Bumblebee is
+_programmable_, that's like marketing kryptonite for software engineers such as
+myself. It has 3 modes of operation! 2 temperature sensors! Bring on the
+Arduino shield baby!
+
+<center>
+<img src="/img/plumbing/taco_curve.png"
+  alt="tiny hacker house plumbing taco bumblebee curve">
+</center>
+
+The good news is the Bumblebee will work for my system, albeit at a maximum
+flow of 1.5 - 2 GPM. But this reduces my electricity usage anyway, and provides
+the maximum heat rise from my water heater. The only issue now is the heat
+exchanger loses its efficiency at that low flow.
+
+Theoretically, roughly the same amount of heat is applied to a fluid through a
+heat exchanger regardless of flow, but in reality, faster flows generate more
+turbulence across the plates, covering more surface area and transferring more
+heat.
+
+My solution to this final puzzle is to buy the largest heat exchanger feasible
+-- a 1,000,000 BTU/hr copper-brazed plate exchanger (sometimes the brute force
+approach is best). The difference between the small and large ones is
+a matter of a few hundred dollars and a few inches, but the heating capacity
+gains are ten-fold. It's an upfront cost that will save on both electricity and
+propane costs for the life of the house.
+
+<h3>Tap supply</h3>
+
+To supply cold / hot water to the fixtures in the house, there are two possible
+scenarios to take into account.
+
+If the tap water's already coming from a pressurized source such as a garden
+hose, city water, or RV hookup, you simply need to filter the water before
+running to your heat exchanger and taps. It's also recommended to install a
+water pressure regulator in case you happen upon any extreme pressures in your
+travels.
+
+If, however, it's coming from the tank, you need to pressurize it, feed it to a
+buffer / accumulator tank (to prevent rapid pump cycling and surges) then feed
+it to the rest of your tap lines.
+
+Many choices for parts abound for scenario 2, but what's most important is the
+GPM rating of the pressure pump and its power consumption. I've selected one
+rated for 3.0 GPM at 90 W, but they come in all sizes.
+
+<h3>Mixing electricity and water</h3>
+
+Finally, we need to add a bit of smarts so that everything is automatic.
+
+The state of the plumbing system can represented by 2 "bits" of information:
+fixture (shower) on / off and radiant floor on / off. So there are four
+possible states the system can be in: both off, both on, fixture on, or radiant
+on.
+
+Using an HVAC thermostat and flow switch, we can control the system with a
+simple "truth table":
+
+| Thermostat requesting heat? | Hot tap flow? | Pump state | Radiant zone valve |
+|-
+|No|No|Off|Bypass|
+|Yes|No|On|Floor loop|
+|Yes|Yes|On|Floor loop|
+|No|Yes|On|Bypass|
+
+So if I'm showering and it's cold outside, the pump is on and the thermostat
+switches the zone valve to the floor loop. If I'm showering in the summer, the
+pump is on but the zone valve is set to bypass the floor loop so as not to heat
+up the house. The water heater fires up automatically when it senses flow above
+0.5 GPM, so the pump triggers the water heater in this setup.
+
+Add in a couple relays to provide the switching and I should be good to go.
+
+<h3>Putting it all together</h3>
+
+I now humbly present to you, the schematic:
+
+<center>
+<img src="/img/plumbing/schematic.png"
+  alt="tiny hacker house plumbing schematic">
+<div class="caption">
+<i>Ok, so I like to color outside the lines a little</i>
+</div>
+</center>
+
+If any professional plumbers are reading this and feeling generous,
+please offer your critique in the comments below!
+
+_Update:_
+
+The [reddit discussion](http://www.reddit.com/r/TinyHouses/comments/2tdin6/finally_finished_my_tiny_house_radiant_floor/)
+concerning this design has prompted me to reconsider going with a dual zone heater, known as a "combi"
+boiler. The problem is, they're very pricey -- this 
+<a href="http://www.amazon.com/gp/product/B0082LSCKO/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0082LSCKO&linkCode=as2&tag=modebedo-20&linkId=265ZGRACS6NKR7PD">Rinnai E110CP</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=modebedo-20&l=as2&o=1&a=B0082LSCKO" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+is about 2x the cost of the setup shown here for a similar BTU rating. It would
+be nice to save a bit of space and plumbing complexity, but if the pump, heat
+exchanger, or zone valve fail I'm stuck with OEM replacements.
+
+
+
+
+
+
+
+
+_Disclaimer: I'm not a certified electrician, just a stubborn DIY'er._
+
+**tl;dr:** Scroll to the bottom for the [schematic](#schematic).
+
+Electricity is one of the most important aspects of building a house. If you
+get it wrong, your house can burn down. Or you'll constantly be flipping
+breakers and frying devices. Definitely hire a professional electrician if you
+just want a system that works and is safe. But if you're a stubborn
+DIY'er-at-all-costs like me, read on.
+
+Since the tiny hacker house is designed to operate off grid, the electrical
+wiring closely resembles what you'd find in a typical RV. I have to say,
+information on wiring an RV is extremely hard to come across on the web.  The
+main hangup is accommodating for both 12V and 120V supplies. 120V wiring is
+straightforward enough -- just follow your local building code's guidelines.
+But throw in 12V appliances, a battery bank, inverter, "shore power" and you
+have a little more thinking to do.
+
+### Picking an Inverter
+
+Needless to say, inverters are extremely important. The good ones seem to do it
+all safely and with flying colors, and the really bad ones can hiss, crackle,
+spark, and smoke if you even get close to their rated capacity. There are a few
+key metrics you need to keep in mind when picking one. Here's what I learned:
+
+##### Signal Quality
+There are two types of inverters: pure sine and modified sine wave. The
+modified sine wave inverters "mimic" 120V AC with a step wave so while fine for
+most devices, it can cause problems for sensitive devices like fluorescent
+lights, battery chargers, and some medical equipment. Pure sine wave inverters,
+however, generate an AC supply identical to what you'd receive from the city
+power grid. Presumably, it makes more sense to go with a pure sine model, but
+they can be nearly double the price for the same capacity. Personally, I'm
+making the tradeoff for a pure sine model. I don't want any surprises on the
+road.
+
+##### Voltage
+Assuming you've already determined your [power](#) requirements and settled
+on a battery bank configuration, you need to pick an inverter that matches your
+bank voltage. Most inverters are designed for 12V, but if you need more than
+4000W or so they typically require 24V or even 48V DC sources instead. A 24V or
+48V system is fine, but then you'll need a step-down converter to power any 12V
+appliances you may have (yes, "technically" you can just tap your 48V battery
+bank at a 12V point to avoid the converter, but this will drain the bank
+unevenly and could reduce its lifetime). If you're using solar as well, this
+will have to match your solar MPPT charger's output. Also, you should pick an
+inverter with about 120% of the power capacity you plan to use in an ongoing
+basis. Most aren't designed to run at 100% capacity for long periods of time.
+
+##### Charging / Pass-through Capability
+If you plan to ever hook up to a city power grid or shore power at an RV park
+(or even some generators), a charging inverter may suit you better. These smart
+devices are essentially an inverter with an AC input to automatically charge
+your batteries when you connect to an AC source. The switching happens on the
+fly -- when you disconnect (or the generator runs out of gas), the inverter
+will automatically and instantly switch from charging mode to inverting mode
+with no loss of power to your house in between. Some of the beefier
+inverter/chargers can even pass split-phase 240V AC input through to power your
+devices. So if your tinyhouse uses a 50A shore power inlet, you'll be able to
+use both 120V hot legs of the supply instead of just one, basically doubling
+your available power. More on that later.
+
+According to everything I've read so far, the [Magnum
+Energy](http://magnumenergy.com) ones are some of the best. They have [a 48V
+4000W+ inverter](http://magnumenergy.com/ms-pae-series-invertercharger/)
+that supplies split-phase 240V so it could power electric ranges, large ACs,
+and electric dryers! We won't be needing any of that for the tiny hacker house,
+but it is nice to know I am future-proofed in case my electrical needs grow. 
+
+### 30A or 50A Shore Power: What's the Difference?
+
+When you pull up to your spot at an RV park or campground, you'll typically see
+an electrical panel like this:
+
+<center>
+  <img src="/img/rv-power-pedestal.jpg" alt="RV Power Pedestal">
+  <div class="caption">
+    <i>
+      From left to right: 50A outlet, 30A outlet, and two 20A outlets all with
+corresponding breakers. Notice the double-pole breaker for the 50A outlet!
+   </i>
+  </div>
+</center>
+
+Called the power pedestal, these are pretty much the "main panel" for your
+electrical system -- they're where the neutral is bonded to ground. _Note: that
+means you **DO NOT** bond your neutral to ground in your tinyhouse's electrical
+panel!_
+
+As you may know, 120V systems in the US utilize three wires: hot, neutral,
+and ground. Power is applied to your devices via the difference in potential
+between the hot and neutral wires. The ground is just a safety measure -- if
+the hot leg accidentally shorts to the casing of the device it's powering,
+electricity will safely short to ground, tripping the associated breaker
+instead of shorting through you if you happen to touch the afflicted device
+(think: old rusty washing machine). This is why old homes and some devices are
+in "two-prong" configuration -- the ground can sometimes be omitted.
+
+Now, you may notice in that picture the 50A outlet on the left utilizes _four_
+wires. Three of them are the same as any ordinary outlet, but the fourth is
+actually another hot wire. This means there are _two_ hots, one neutral (shared
+between the hots), and one ground. Without getting too technical, this is to
+provide 240V AC to certain high-power devices. The additional hot is 120V as
+well, but shifted 180&deg; out of phase with the other one, so the average
+potential between them sums to 240V. Pretty neat huh?
+
+The corresponding breaker (the two handles on the left) is a double-pole
+breaker. That simply means it is actually two 50A breakers with a mechanism in
+place such that if one breaker trips, it forces the other 50A one to trip as
+well. So with a standard four-wire 50A outlet we actually get 50A + 50A =
+_100A_ at 120V, or 12,000W power. That's over **three** times what the 30A
+outlet can provide and **five** times what a standard 20A outlet can provide.
+
+So what does this mean for a tinyhouse? If you think you'll ever need more
+power than what the three-wire 30A outlet can provide (namely 3,600W), you need
+to make sure to use a 50A inlet and wire your house accordingly. That means
+picking an inverter that can pass through split-phase AC input, and having at
+least two separate 50A electrical circuits for your tiny house: one for each hot
+leg of the 50A power.
+
+### Schematic
+<a name="schematic"></a>
+
+Finally, here is what all that adds up to:
+
+<center>
+  <img src="/img/wiring-schematic.png" alt="Tiny Hacker House Wiring Schematic">
+  <div class="caption">
+    <i>
+      NOTE: The service inlet plug should actually be male, not female.      
+   </i>
+  </div>
+</center>
+
+In my design, I actually have three panels in order to electrically isolate the
+inverter without having to rewire anything. Hence the "main panel" and transfer
+panel. You could just as easily omit these and feed directly into the inverter
+and then into your subpanel.
+
+The subpanel consists of four 120V circuits: two 20V runs and two 15V runs. I'd
+have to upgrade the subpanel to make room for a double-pole breaker if I wanted
+to feasibly run a 240V appliance on this system.
+
+Also note the current ratings written on the panels in the diagram are a bit
+misleading. Those are the total current ratings for each leg of 120V, so divide
+by two in the context of split-phase 240V.
+
+Good luck and email me or comment with any questions!
+
+
+
+
+
+
+
+
+
+This is the first build post. I actually started building in late November, but
+wanted to make some sustained progress before sharing what I've learned.
+I knew I wanted to use metal stud framing, but how much more difficult could
+this be than traditional stick framing?
+
+<center>
+  <img src="/img/framing/back wall up.jpg" alt="Back wall up">
+</center>
+
+Well, it took 2 months and a few false starts to get the steel frame together and
+finalized.
+
+My first design used 25-gauge metal studs found in any Home Depot. It didn't
+take into account any sort of industry-standard structural building techniques,
+but it was fairly easy to assemble:
+
+<center>
+  <img src="/img/framing/initial attempt.jpg" alt="Initial framing attempt">
+  <div class="caption">
+    <i>
+      This flimsy subfloor wouldn't last through a single screeching stop. 
+    </i>
+  </div>
+</center>
+
+The subfloor could be strapped to the trailer frame with wood hurricane straps!
+I thought I was really clever for coming up with this "foundation":
+
+<center>
+  <img src="/img/framing/initial foundation.jpg" alt="Initial foundation attempt">
+  <div class="caption">
+    <i>
+      18-gauge galvanized steel straps holding down the subfloor and eventually
+12,000 lbs of house. Haha.
+    </i>
+  </div>
+</center>
+
+Then I found out about the [Prescriptive Method for Residential Cold-Formed
+Steel Framing]({{site.baseurl}}/files/steel_framing_guide.pdf). Apparently, if
+you're framing anything with steel, this is the reference to rule them all.
+After reading that, I realized I had to trash the subfloor I already built and
+order some _real_ metal studs. This meant I needed the precise lengths of all the
+tracks and studs I would need in advance. And so I came up with this:
+
+<center>
+  <img src="/img/framing/design.png" alt="Framing model">
+  <div class="caption">
+    <i>
+      12" OC steel frame design. I decided in the end to go with 24" OC spacing.
+    </i>
+  </div>
+</center>
+
+Once my order of 12-gauge studs and tracks arrived, it was time to start
+building! I decided to build my walls on the ground first, then raise them into
+place. What could go wrong?
+
+<center>
+  <img src="/img/framing/build floor wall.jpg" alt="Build floor wall">
+</center>
+
+<center>
+  <img src="/img/framing/backhoe lift.jpg" alt="Backhoe lift">
+  <div class="caption">
+    <i>
+      Seemed easy enough, right?
+    </i>
+  </div>
+</center>
+
+
+
+Well, it turns out steel bends and flexes pretty easily under its own weight.
+Furthermore, the 12-gauge studs I was using required a lot of banging to get
+them to slide into the tracks, and they kept popping out. When I finally
+screwed them together, this tension added up. When I got the
+first three walls up, I noticed things weren't quite right:
+
+<center>
+  <img src="/img/framing/wall warp.jpg" alt="wall warp">
+  <div class="caption">
+    <i>
+      Notice the whole frame skewing to the left.
+    </i>
+  </div>
+</center>
+
+Sigh. I'd have to be more careful with the final wall -- making sure it was
+nice and square before hoisting it into place.
+
+<center>
+  <img src="/img/framing/last wall accuracy.jpg" alt="last wall accuracy">
+  <div class="caption">
+    <i>
+      Off by a 1/2" over a 16' span. Not too shabby.
+    </i>
+  </div>
+</center>
+
+That made a big difference. With the final wall built, I could prepare the
+other three so the corners would line up. I goaded the frame back to its
+planned shape using a series of ratchet straps:
+
+<center>
+  <img src="/img/framing/wall skew.jpg" alt="wall skew">
+  <div class="caption">
+    <i>
+    </i>
+  </div>
+</center>
+
+<center>
+  <img src="/img/framing/four walls.jpg" alt="four walls">
+  <div class="caption">
+    <i>
+      All four walls up (for now).
+    </i>
+  </div>
+</center>
+
+I then lifted the last wall into place. But just before I was able to screw it
+to the others, it came crashing down, nearly flattening me into a tiny human.
+
+<center>
+  <img src="/img/framing/wall fall.jpg" alt="wall fall">
+  <div class="caption">
+    <i>
+      2 days of build time gone.
+    </i>
+  </div>
+</center>
+
+After getting the fourth wall back up, I decided to add some cross-structural
+bracing and weld all the joints to provide much more rigidity.
+
+<center>
+  <img src="/img/framing/skew brace.jpg" alt="skew brace">
+  <div class="caption">
+    <i>
+      Preventing side-to-side shearing.
+    </i>
+  </div>
+</center>
+<center>
+  <img src="/img/framing/lateral brace.jpg" alt="lateral brace">
+  <div class="caption">
+    <i>
+      And another steel plate welded diagonally across the double-studded
+wall. That will eliminate any shearing during sudden acceleration and
+deceleration maneuvers.
+    </i>
+  </div>
+</center>
+<center>
+  <img src="/img/framing/corner detail.jpg" alt="corner detail">
+  <div class="caption">
+    <i>
+      Commanding the power of Zeus to make my tiny house indestructable.
+    </i>
+  </div>
+</center>
+
+Once the frame was done and welded, I still needed to punch 1/2" holes through
+the studs to run the electrical wiring and plumbing. I also needed to drill
+through the trailer flange to attach my foundation anchors. This took about
+a week and 7 cobalt drill bits.
+
+After all that hard work, was it worth using metal studs? Absolutely. Just
+maybe not 12-gauge ones. 18-gauge would probably be more suitable and can still
+be welded. On to electrical and plumbing!
+
+Here are all the pics:
+
+<ul class="thumbnails">
+<li><a href="/img/framing/anchor detail.jpg" data-lightbox="framing"><img src="/img/framing/anchor detail.jpg"></a></li>
+<li><a href="/img/framing/anchor.jpg" data-lightbox="framing"><img src="/img/framing/anchor.jpg"></a></li>
+<li><a href="/img/framing/back wall up.jpg" data-lightbox="framing"><img src="/img/framing/back wall up.jpg"></a></li>
+<li><a href="/img/framing/backhoe lift.jpg" data-lightbox="framing"><img src="/img/framing/backhoe lift.jpg" ></a></li>
+<li><a href="/img/framing/build floor wall.jpg" data-lightbox="framing"><img src="/img/framing/build floor wall.jpg" ></a></li>
+<li><a href="/img/framing/clip angle.jpg" data-lightbox="framing"><img src="/img/framing/clip angle.jpg" ></a></li>
+<li><a href="/img/framing/corner detail.jpg" data-lightbox="framing"><img src="/img/framing/corner detail.jpg" ></a></li>
+<li><a href="/img/framing/design.png" data-lightbox="framing"><img src="/img/framing/design.png" ></a></li>
+<li><a href="/img/framing/first wall.jpg" data-lightbox="framing"><img src="/img/framing/first wall.jpg" ></a></li>
+<li><a href="/img/framing/four walls.jpg" data-lightbox="framing"><img src="/img/framing/four walls.jpg" ></a></li>
+<li><a href="/img/framing/initial attempt.jpg" data-lightbox="framing"><img src="/img/framing/initial attempt.jpg" ></a></li>
+<li><a href="/img/framing/initial foundation.jpg" data-lightbox="framing"><img src="/img/framing/initial foundation.jpg" ></a></li>
+<li><a href="/img/framing/last wall accuracy.jpg" data-lightbox="framing"><img src="/img/framing/last wall accuracy.jpg" ></a></li>
+<li><a href="/img/framing/lateral brace.jpg" data-lightbox="framing"><img src="/img/framing/lateral brace.jpg" ></a></li>
+<li><a href="/img/framing/poor man's scaffold.jpg" data-lightbox="framing"><img src="/img/framing/poor man's scaffold.jpg" ></a></li>
+<li><a href="/img/framing/skew brace.jpg" data-lightbox="framing"><img src="/img/framing/skew brace.jpg" ></a></li>
+<li><a href="/img/framing/temp brace.jpg" data-lightbox="framing"><img src="/img/framing/temp brace.jpg" ></a></li>
+<li><a href="/img/framing/wall fall.jpg" data-lightbox="framing"><img src="/img/framing/wall fall.jpg" ></a></li>
+<li><a href="/img/framing/wall skew.jpg" data-lightbox="framing"><img src="/img/framing/wall skew.jpg" ></a></li>
+<li><a href="/img/framing/wall warp.jpg" data-lightbox="framing"><img src="/img/framing/wall warp.jpg" ></a></li>
+</ul>
+
+
+
+
+
+
+
+As soon as the [steel
+framing](#)
+was finished, it was time to punch 1/2" holes through the studs I needed to
+route plumbing and electrical cabling through.
+
+The tiny hacker house has a total of 8 outlets situated mostly along
+the left side of the house, and a shower, kitchen sink, bathroom sink, and
+toilet that need water lines. Oh and 10 light receptacles and 4 switch boxes
+that need electricity as well.
+
+
+<!-- whole trailer pic -->
+<center>
+  <img src="/img/build-plumbing/overview.jpg" alt="Overview">
+  <div class="caption">
+    <i>It's alive!</i>
+  </div>
+</center>
+
+This meant I needed to punch over 50 1/2" holes through 12-gauge steel... not a
+simple task. It's these kinds of one-off difficulties that make working with
+steel studs much more tricky than wood.
+
+<!-- stud punch pic -->
+<center>
+  <img src="/img/build-plumbing/stud punch.jpg" alt="Stud punch">
+  <div class="caption">
+    <i>Requires a pilot hole to make the punch... that's what I came to you for!</i>
+  </div>
+</center>
+
+I ended up buying a 6-ton hydraulic steel stud punch tool to make the holes.
+Ironically, however, it needs a 3/8" hole already drilled in the stud in order
+to function.  And it doesn't work through double studs. For that I used a
+bi-metal hole saw.  It took a whole week to place fixtures, measure, and cut all
+the holes.
+
+<!-- electrical box pic --> 
+<center>
+  <img src="/img/build-plumbing/fridge.jpg" alt="fridge outlet">
+  <div class="caption">
+    <i>Dedicated fridge outlet</i>
+  </div>
+</center>
+
+
+Plastic bushings are required in metal studs so the sharp edges don't cut the
+water lines or short your electricity to the frame, turning your tiny house into
+a giant electrocution device.
+
+<!-- tv outlet pic -->
+<center>
+  <img src="/img/build-plumbing/first outlet.jpg" alt="TV outlet">
+  <div class="caption">
+    <i>TV outlet</i>
+  </div>
+</center>
+
+After everything was cut, painted with galvanizing spray, and bushings inserted,
+I could route the piping and cabling. I found it easier to first attach the
+electrical boxes to a 6" 2x4 backing block and then screw the whole piece into
+the stud.
+
+<!-- shower rough in -->
+<center>
+  <img src="/img/build-plumbing/shower valve detail.jpg" alt="Shower valve
+detail">
+  <div class="caption">
+    <i>Shower rough in</i>
+  </div>
+</center>
+
+For the plumbing I used PEX. It seems to be all the rage these days. It's pretty
+simple to work with -- if you have a good crimper and do it carefully, you
+shouldn't have any leaks for years to come.
+
+<!-- gauge -->
+<center>
+  <img src="/img/build-plumbing/hose pressure.jpg" alt="Hose pressure">
+  <div class="caption">
+    <i>Hose pressure is zero because the shower valve prevents backflow.</i>
+  </div>
+</center>
+
+After I finished the plumbing rough-in, I plugged all the fixtures and
+pressure-tested it first with air to 100 PSI, then overnight with a garden hose
+attached. I guess this first-timer got lucky -- no leaks!
+
+Next I'll be putting up the sheathing and making final preparations for
+the insulation installation!
+
+Here are all the pics for your viewing pleasure:
+
+<!-- all pics -->
+<ul class="thumbnails">
+<li><a href="/img/build-plumbing/sink and toilet.jpg" data-lightbox="build-plumbing"><img src="/img/build-plumbing/sink and toilet.jpg"></a></li>
+<li><a href="/img/build-plumbing/corner plumbing.jpg" data-lightbox="build-plumbing"><img src="/img/build-plumbing/corner plumbing.jpg"></a></li>
+<li><a href="/img/build-plumbing/first outlet.jpg" data-lightbox="build-plumbing"><img src="/img/build-plumbing/first outlet.jpg"></a></li>
+<li><a href="/img/build-plumbing/corner.jpg" data-lightbox="build-plumbing"><img src="/img/build-plumbing/corner.jpg"></a></li>
+<li><a href="/img/build-plumbing/office.jpg" data-lightbox="build-plumbing"><img src="/img/build-plumbing/office.jpg"></a></li>
+<li><a href="/img/build-plumbing/bent shower valve.jpg" data-lightbox="build-plumbing"><img src="/img/build-plumbing/bent shower valve.jpg"></a></li>
+<li><a href="/img/build-plumbing/overview.jpg" data-lightbox="build-plumbing"><img src="/img/build-plumbing/overview.jpg"></a></li>
+<li><a href="/img/build-plumbing/inlet.jpg" data-lightbox="build-plumbing"><img src="/img/build-plumbing/inlet.jpg"></a></li>
+<li><a href="/img/build-plumbing/fridge.jpg" data-lightbox="build-plumbing"><img src="/img/build-plumbing/fridge.jpg"></a></li>
+<li><a href="/img/build-plumbing/entrypoint.jpg" data-lightbox="build-plumbing"><img src="/img/build-plumbing/entrypoint.jpg"></a></li>
+<li><a href="/img/build-plumbing/ceiling lights.jpg" data-lightbox="build-plumbing"><img src="/img/build-plumbing/ceiling lights.jpg"></a></li>
+<li><a href="/img/build-plumbing/bathroom.jpg" data-lightbox="build-plumbing"><img src="/img/build-plumbing/bathroom.jpg"></a></li>
+<li><a href="/img/build-plumbing/shower.jpg" data-lightbox="build-plumbing"><img src="/img/build-plumbing/shower.jpg"></a></li>
+<li><a href="/img/build-plumbing/tv outlet.jpg" data-lightbox="build-plumbing"><img src="/img/build-plumbing/tv outlet.jpg"></a></li>
+<li><a href="/img/build-plumbing/bathroom switch.jpg" data-lightbox="build-plumbing"><img src="/img/build-plumbing/bathroom switch.jpg"></a></li>
+<li><a href="/img/build-plumbing/loft switch.jpg" data-lightbox="build-plumbing"><img src="/img/build-plumbing/loft switch.jpg"></a></li>
+<li><a href="/img/build-plumbing/hose pressure.jpg" data-lightbox="build-plumbing"><img src="/img/build-plumbing/hose pressure.jpg"></a></li>
+<li><a href="/img/build-plumbing/shower valve detail.jpg" data-lightbox="build-plumbing"><img src="/img/build-plumbing/shower valve detail.jpg"></a></li>
+<li><a href="/img/build-plumbing/kitchen switch.jpg" data-lightbox="build-plumbing"><img src="/img/build-plumbing/kitchen switch.jpg"></a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+As soon as the
+[electrical wiring and plumbing](#)
+was finished, it was time to add the exterior sheathing. Sheathing is simply a
+4'x8' piece of treated plywood screwed into the frame every 12" or so. It adds
+structural support to the frame to prevent shearing, and also provides a
+surface to attach the exterior siding.
+
+In this case, since I'm using metal studs, it's critical to use a layer of
+rigid foam board between the frame and exterior sheathing to provide a thermal
+barrier. Otherwise, the insulating R-value of my wall could be [reduced by
+half](http://web.ornl.gov/sci/roofs+walls/research/detailed_papers/steel_frame/index.html)!
+After the foam board and sheathing is applied, the wall cavity could be sprayed
+with a soy-based closed-cell expanding foam.
+
+<center>
+  <img src="/img/sheathing-insulation/dad.jpg" alt="Dad
+sheathing">
+<div class="caption">
+<i>
+The finished sheathing. You can see the backhoe we used as an elevated platform
+at the far right.
+</i>
+</div>
+</center>
+
+After gluing the rigid foam to the 4x8 plywood, screwing the sheathing in was
+pretty simple -- I used some plymetal screws to fasten the 4x8 sheets to the
+metal studs. They have a little winged head that drills a slightly larger hole
+through the wood so it doesn't ride up on you when you begin drilling into the
+metal. It took anywhere from 5 seconds to a minute to put a screw in, depending
+on how much force I was able to apply in the physical position I was in.
+
+<center>
+  <img src="/img/sheathing-insulation/rear-right.jpg" alt="Rear right sheathing">
+</center>
+
+Since the design called for screws every 6" on the edges and every 12"
+elsewhere, that tallied up to over 1000 screws! Needless to say, it took over a
+week of two people working full-time to get it all installed.
+
+<center>
+  <img src="/img/sheathing-insulation/temp-support.jpg" alt="Temp support">
+</center>
+
+If your studs aren't perfectly aligned to 48" boundaries, or if you're working
+alone, it can be quite frustrating to get the 4x8 sheets fastened at precisely
+the right spot. Any gaps would ooze out spray foam and be susceptible to water
+penetration, so I wanted to get it as tight as possible. I used a few different
+techniques to position the sheathing before fastening it in place.
+
+<center>
+  <img src="/img/sheathing-insulation/front-right.jpg" alt="front right
+sheathing">
+  <div class="caption">
+    <i>
+      A hydraulic jack is a precise instrument for controlling the height of
+sheathing.
+    </i>
+  </div>
+</center>
+
+<center>
+  <img src="/img/sheathing-insulation/temp-support.jpg" alt="temp support">
+</center>
+
+With all those long screws going through the stud, I had to be careful not to
+penetrate a water line or electrical wire. In contrast, with wood studs you can
+use nail plates to prevent this much more easily. I also found out if you left
+foil-faced rigid foam stacked together for too long with moisture, the foil
+begins to decay!
+
+<center>
+  <img src="/img/sheathing-insulation/water-inlet.jpg" alt="water inlet">
+</center>
+
+At the corners, I left it at a simple overlap since these will be covered up
+later with 2x4 cedar trim.
+
+<center>
+  <img src="/img/sheathing-insulation/slight-warp.jpg" alt="slight warp">
+  <div class="caption">
+    <i>
+      The gap was fixed once the screws were in.
+    </i>
+  </div>
+</center>
+
+Underneath the trailer, I attached four 4x8 sheets of 1/8" aluminum to prevent
+road debris from ending up in my living room. These also had to be layered with
+rigid foam -- otherwise the bottom of my house would be one giant heatsink.
+
+<center>
+  <img src="/img/sheathing-insulation/underbelly.jpg" alt="underbelly shielding">
+  <div class="caption">
+    <i>
+      Six hours on my back under the trailer, brushing metal shavings out of
+my face and hair was a thrilling adventure.
+    </i>
+  </div>
+</center>
+
+Once the "walls" were up, it really started to feel like a house. Now I had to
+tow it to get insulated.
+
+<center>
+  <img src="/img/sheathing-insulation/kitchen-spraying.jpg" alt="Kitchen
+sprayfoam">
+</center>
+
+It only took an hour or so with two guys working at it -- one spraying and the
+other cleaning up the excess.
+
+<center>
+  <img src="/img/sheathing-insulation/wall-spraying.jpg" alt="Wall
+sprayfoam">
+</center>
+
+I was lucky to find a variant of spray foam made from Soy oil, so it's
+non-toxic (but still sticky as hell). Within 3 seconds of being applied, it
+reaches 95% of its structural rigidity. And this stuff is rock-solid! If I'd
+known how hard it becomes, I may have designed the frame to be a little
+lighter.
+
+<center>
+  <img src="/img/sheathing-insulation/with-trailer.jpg" alt="With
+trailer">
+</center>
+
+While I had my house out on the road, I decided to make a quick stop at the
+scale. With sheathing, insulation, and framing done, I weighed in at about
+5,000 lbs! Heavy, but not too bad considering my 14,000 lb limit.
+
+Next is building the front tongue shed!
+
+
+Here are all the pics:
+
+<ul class="thumbnails">
+<li><a href="/img/sheathing-insulation/bathroom.jpg" data-lightbox="sheathing-insulation"><img src="/img/sheathing-insulation/bathroom.jpg" data-lightbox="sheathing-insulation"></a></li>
+<li><a href="/img/sheathing-insulation/dad.jpg" data-lightbox="sheathing-insulation"><img src="/img/sheathing-insulation/dad.jpg" data-lightbox="sheathing-insulation"></a></li>
+<li><a href="/img/sheathing-insulation/front-right.jpg" data-lightbox="sheathing-insulation"><img src="/img/sheathing-insulation/front-right.jpg" data-lightbox="sheathing-insulation"></a></li>
+<li><a href="/img/sheathing-insulation/front.jpg" data-lightbox="sheathing-insulation"><img src="/img/sheathing-insulation/front.jpg" data-lightbox="sheathing-insulation" ></a></li>
+<li><a href="/img/sheathing-insulation/kitchen-sheathing.jpg" data-lightbox="sheathing-insulation"><img src="/img/sheathing-insulation/kitchen-sheathing.jpg" data-lightbox="sheathing-insulation" ></a></li>
+<li><a href="/img/sheathing-insulation/kitchen-spraying.jpg" data-lightbox="sheathing-insulation"><img src="/img/sheathing-insulation/kitchen-spraying.jpg" data-lightbox="sheathing-insulation" ></a></li>
+<li><a href="/img/sheathing-insulation/panorama.jpg" data-lightbox="sheathing-insulation"><img src="/img/sheathing-insulation/panorama.jpg" data-lightbox="sheathing-insulation" ></a></li>
+<li><a href="/img/sheathing-insulation/radiant-floor-lines.jpg" data-lightbox="sheathing-insulation"><img src="/img/sheathing-insulation/radiant-floor-lines.jpg" data-lightbox="sheathing-insulation" ></a></li>
+<li><a href="/img/sheathing-insulation/radiant-floor.jpg" data-lightbox="sheathing-insulation"><img src="/img/sheathing-insulation/radiant-floor.jpg" data-lightbox="sheathing-insulation" ></a></li>
+<li><a href="/img/sheathing-insulation/rear-right.jpg" data-lightbox="sheathing-insulation"><img src="/img/sheathing-insulation/rear-right.jpg" data-lightbox="sheathing-insulation" ></a></li>
+<li><a href="/img/sheathing-insulation/side-wall.jpg" data-lightbox="sheathing-insulation"><img src="/img/sheathing-insulation/side-wall.jpg" data-lightbox="sheathing-insulation" ></a></li>
+<li><a href="/img/sheathing-insulation/slight-warp.jpg" data-lightbox="sheathing-insulation"><img src="/img/sheathing-insulation/slight-warp.jpg" data-lightbox="sheathing-insulation" ></a></li>
+<li><a href="/img/sheathing-insulation/spraying-finished.jpg" data-lightbox="sheathing-insulation"><img src="/img/sheathing-insulation/spraying-finished.jpg" data-lightbox="sheathing-insulation" ></a></li>
+<li><a href="/img/sheathing-insulation/spraying-overview.jpg" data-lightbox="sheathing-insulation"><img src="/img/sheathing-insulation/spraying-overview.jpg" data-lightbox="sheathing-insulation" ></a></li>
+<li><a href="/img/sheathing-insulation/temp-support.jpg" data-lightbox="sheathing-insulation"><img src="/img/sheathing-insulation/temp-support.jpg" data-lightbox="sheathing-insulation" ></a></li>
+<li><a href="/img/sheathing-insulation/underbelly.jpg" data-lightbox="sheathing-insulation"><img src="/img/sheathing-insulation/underbelly.jpg" data-lightbox="sheathing-insulation" ></a></li>
+<li><a href="/img/sheathing-insulation/wall-spraying.jpg" data-lightbox="sheathing-insulation"><img src="/img/sheathing-insulation/wall-spraying.jpg" data-lightbox="sheathing-insulation" ></a></li>
+<li><a href="/img/sheathing-insulation/water-inlet.jpg" data-lightbox="sheathing-insulation"><img src="/img/sheathing-insulation/water-inlet.jpg" data-lightbox="sheathing-insulation" ></a></li>
+<li><a href="/img/sheathing-insulation/with-trailer.jpg" data-lightbox="sheathing-insulation"><img src="/img/sheathing-insulation/with-trailer.jpg" data-lightbox="sheathing-insulation" ></a></li>
+<li><a href="/img/sheathing-insulation/without-trailer.jpg" data-lightbox="sheathing-insulation"><img src="/img/sheathing-insulation/without-trailer.jpg" data-lightbox="sheathing-insulation" ></a></li>
+</ul>
+
