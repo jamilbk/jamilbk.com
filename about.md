@@ -4,15 +4,17 @@ title: About
 sidebar_link: true
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+<img src="{{ site.author.gravatar }}" alt="Gravatar of Jamil Bou Kheir" />
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+### Who Are You and Why Do You Have a Blog?
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+I'm an independent full-stack web contractor.
 
+This blog is mostly a record-keeping project. It's a place to document what I've
+learned and what I've worked on; a portfolio of sorts.
 
-[jekyll-organization]: https://github.com/jekyll
+### Wouldn't a journal accomplish the same thing?
+
+Making this public forces me to organize my thoughts in a way that allows them
+to be easily explained to other people. A journal is mostly a collection of day
+to day thoughts with no coherent message, while a blog forces a narrative.
