@@ -202,11 +202,63 @@ a makeshift fireplace.
 <a name='tiny-house-life'></a>
 ## Tiny House Life
 
-Tiny House lifestyle has its pros and cons. Contrary to what popular TV shows
-may convey about tiny house life, it's not always butterflies and rainbows.
+Tiny House lifestyle has its pros and cons. It's an exciting way to live,
+questioning the commonplace, minimalistic (in a literal sense), and always with
+its challenges. But contrary to what popular TV shows may convey about tiny
+house life, it's not always butterflies and rainbows.
 
 <a name='towing'></a>
 ### Towing
+
+Towing a tiny house is essentially like towing any other form of trailer. One
+thing to keep in mind is that tiny houses are generally much heavier than an RV
+of similar size due to the beefier construction materials. As long as the home
+is built soundly and attached to the trailer securely, towing a tiny house
+should be familiar to anyone that's towed a trailer before.
+
+One thing you need to make extra-sure of in the case of tiny houses is that the
+weight is distributed properly between the trailer axles and tongue. This is
+what primarily determines towing stability at highway speeds. RVs are
+manufactured to take this into account at a fundamental level, but tiny houses
+are often designed without consideration for towing stability.
+
+When it comes to towing, there are two main types of trailer designs common to
+tiny houses: v-nose and goose-neck. v-nose trailers are by far the
+most common. These are generally what you picture when you think of a trailer.
+The trailer frame extends to converge to a "V" at the front of the trailer at
+the same level of the axles, and this "V" (called the trailer nose) attaches to
+a ball on the rear of the truck at bumper level. Note that nowadays (and
+especially with heavier trailers) the nose does not actually attach to the
+truck's bumper but instead a thick steel hitch bolted directly to the truck's
+rear frame section.
+
+The second type, goose-neck, use a hitch structure that rises from the frame of
+the trailer up and over the truck's rear tailgate and attaches to a ball in the
+bed of the truck. This ball is bolted to a fortified steel platform hidden
+under the bed and bolted to the truck's frame. Goose-neck trailers are commonly
+used for towing very heavy loads since they're much more stable at highway
+speed than a similarly-weighted bumper-pull equivalent.
+
+There are better resources online to learn about towing, so I won't go into too
+much more depth here. The most important thing to remember for towing is the
+weight distribution ratio of the trailer. For v-nose trailers, 15% of the
+total weight of the trailer should rest on the nose and the remaining 85" on
+the trailer axles. For goose-neck trailer, this number is 20%. This has to do
+with the laws of physics; it ensures the trailer tracks the truck properly and
+not the other way around.
+
+<hr>
+
+When you're on the road with a tiny house, you get looks. Mostly good looks. The
+first question I usually get from curious folks is, "Is that a tiny house?!", to
+which I usually reply "What's a tiny house?" followed by a slight grin. I
+built the house as an escape for the daily routine, the mundane, the typical.
+By asking this question, I usually get them to ask themselves what really is a
+tiny house (hint: there is no formal definition), and in that space of
+open-mindedness where labels and notions and ideas of what tiny houses and
+their lifestyles are all about, I tell them my story.
+
+
 
 <a name='internet'></a>
 ### Internet
