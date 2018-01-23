@@ -207,6 +207,33 @@ questioning the commonplace, minimalistic (in a literal sense), and always with
 its challenges. But contrary to what popular TV shows may convey about tiny
 house life, it's not always butterflies and rainbows.
 
+When you work remotely, it feels like you can go
+anywhere. When I tell people I've worked remotely for 5+ years, the most common
+response I get is, "Oh, that's awesome! So you can just travel, work from a
+beach, coffee shop, \<insert relaxing place here>"? I wish I could do that!"
+But there are many limitations to your lifestyle when working remotely.
+Sometimes it feels more burdensome than a stationary lifestyle might allow.
+
+Let me explain.
+
+There are two main things I need to keep top of mind at all times:
+
+1. Since I work for a US-based company, I need to be online and available 8ish -
+5ish each workday for synchronous communication (meetings, chats, etc).
+2. I also need consistent, speedy Internet access. That means about 3-5 mb/s and
+   no dropped packets. Anything less and I can't do my job.
+
+The first prevents nearly all international travel (unless I want to be working
+the "night shift" in Japan for example). I could travel to Latin and South
+America, but then point #2 kicks in.
+
+So traveling domestically has its benefits for remote US-based workers.
+Especially now in 2018, it's possible to purchase unlimited hotspot plans, cell
+boosters, and LTE is pretty much everywhere. Everything is familiar enough to
+ensure the two above points pretty much hassle-free.
+
+
+
 <a name='towing'></a>
 ### Towing
 
@@ -262,6 +289,14 @@ their lifestyles are all about, I tell them my story.
 
 <a name='internet'></a>
 ### Internet
+
+Ask any digital nomad what the most important commodity to their daily life is
+and they'll say Internet. Internet access as a remote worker is how you make a
+living. Your continued survival and flourishing necessitates the need for fast
+low latency Internet connections.
+
+This is one of the advantages being domestically nomadic within the United
+States has over traveling internationally: cellular internet access.
 
 <a name='short-term-parking'></a>
 ### Short-term Parking
