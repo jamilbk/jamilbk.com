@@ -1,5 +1,4 @@
 ---
-layout: page
-title: Code
-sidebar_link: true
+layout: default
+title: code | jamil bou kheir
 ---

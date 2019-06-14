@@ -1,18 +1,7 @@
 ---
-layout: page
-title: Tiny House
-sidebar_link: false
-date: 2018-01-02
-comments: true
+layout: default
+title: tiny house | jamil bou kheir
 ---
-
-{{ page.date | date: '%B %d, %Y' }}
-
-<style type="text/css">
-  ol { list-style-type: upper-roman; }
-  ol ol { list-style-type: upper-alpha; }
-  ol ol ol { list-style-type: decimal; }
-</style>
 
 From the summer of 2014 to the spring of 2016, I took a sabbatical to design
 and build my own tiny house.
