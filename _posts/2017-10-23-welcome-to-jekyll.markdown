@@ -1,6 +1,5 @@
 ---
-layout: post
-sidebar: true
+layout: default
 title:  "Welcome to Jekyll!"
 date:   2017-10-23 19:57:07 -0700
 categories: jekyll update

@@ -13,13 +13,18 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Jamil Bou Kheir
-tagline: Building and securing Internet systems since 2011.
+title: "Jamil Bou Kheir"
+tagline: "Building and securing Internet systems professionally since 2011"
 email: blog@elbii.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Full-stack Rails consultant interested in Blockchain, Machine Learning
+description: >-
+  I'm Jamil. This is my personal website.
+
+  I'm experimenting using this a
+
+
+  Unlike a Facebook profile, I get to post what I want
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://jamilbk.com"
+url: "https://jamilbk.com"
 author:
   name: Jamil Bou Kheir
   url: https://jamilbk.com
