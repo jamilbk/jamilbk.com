@@ -4,18 +4,15 @@ title: about | jamil bou kheir
 ---
 
 <h1>
-  about
+  About
 </h1>
+
 <p>
-  <center>
-    <img src="{{ site.author.gravatar }}" alt="gravatar for jamil bou kheir" />
-  </center>
+  I'm Jamil Bou Kheir. This is my personal website.
 </p>
 
 <p>
-  <i>
-    {{ site.tagline }}
-  </i>
+  You can also find me on these services:
 </p>
 
 <p>
