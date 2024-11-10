@@ -1,9 +1,9 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <main>
@@ -20,17 +20,13 @@
         |
         <a href="/about">about</a>
       </nav>
-      <hr>
-      <section>
-        {{ content }}
-      </section>
+      <hr />
+      <section>{{ content }}</section>
       <footer>
-        <hr>
-        <span style="float: left">
-          © 2021 Jamil Bou Kheir
-        </span>
+        <hr />
+        <span style="float: left"> © 2021 Jamil Bou Kheir </span>
         <span style="float: right">
-          Site last updated at: {{ site.time | date_to_string }}
+          last updated {{ site.time | date_to_string }}
         </span>
       </footer>
     </main>
